@@ -1,0 +1,55 @@
+/* -----OUR SPECIALITS------- */
+
+.section {
+  padding: 50px 0;
+}
+.specialistPhoto {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.specialistPhotoCentred {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.specialistList {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.specialistItem {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 20px;
+}
+
+.specialistInfo {
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+.specialistName {
+  font-weight: 700;
+}
+
+/*width minimum  => 768px */
+
+@media (min-width: 768px) {
+  .specialistItem {
+    flex-direction: row;
+    gap: 60px;
+  }
+
+  .specialistItem:nth-of-type(even) {
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+}

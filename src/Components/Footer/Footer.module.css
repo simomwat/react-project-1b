@@ -1,0 +1,24 @@
+.pageFooter {
+  background-color: #4e4e4e;
+  padding: 5px 0;
+}
+.footerContents {
+  color: white;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.footerIcons {
+  display: flex;
+  gap: 15px;
+}
+
+@media (min-width: 768px) {
+  .footerContents {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,26 @@
+.container {
+  background-color: #405d78;
+  padding: 30px;
+}
+.serviceText {
+  color: white;
+}
+
+.offerWrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 200px);
+  gap: 50px;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .offerWrapper {
+    grid-template-columns: repeat(2, 200px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .offerWrapper {
+    grid-template-columns: repeat(3, 200px);
+  }
+}

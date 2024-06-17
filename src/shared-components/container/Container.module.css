@@ -1,0 +1,41 @@
+/*MAJOR BREAKPOINTS:
+->mobile: 320px -767px
+->tablet: 768px - 1023px
+->laptop: 1024px -1439px
+->desktop: 1440 +
+*/
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  width: calc(100% - 16px);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(255, 228, 196, 0.836);
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*tablet: 768px - 1023px */
+
+@media (min-width: 768px) {
+  .wrapper {
+    width: 80%;
+  }
+}
+
+/*laptop: 1024px -1439px */
+
+@media (min-width: 11024px) {
+  .wrapper {
+    width: 960px;
+  }
+}
