@@ -1,7 +1,6 @@
 import Link from "../../shared-components/Link/Link";
 import Container from "../../shared-components/container/Container";
 import styles from "./Menu.module.css";
-import { HashLink } from "react-router-hash-link";
 
 const Menu = () => {
   return (
@@ -26,7 +25,7 @@ const Menu = () => {
                   <Link href="#contact" label="Contact" isSmall={true} />
                 </li>
                 <li className={styles.navContact}>
-                  <Link href="#aboutUs" label="AboutUs" isSmall={true} />
+                  <Link href="#aboutUs" label="About Us" isSmall={true} />
                 </li>
               </ul>
             </nav>
