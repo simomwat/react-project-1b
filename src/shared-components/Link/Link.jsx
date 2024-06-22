@@ -5,7 +5,10 @@ const Link = (props) => {
     props.isSmall ? styles.smallLink : styles.bigLink
   }`;
   return (
-    <a href={props.href} className={css}>
+    <a
+      href={props.href}
+      className={props.disabled ? `${css} ${styles.disabled}` : css}
+    >
       {props.label}
     </a>
   );

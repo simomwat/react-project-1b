@@ -54,12 +54,10 @@
     font-size: 16px;
     font-weight: 200;
     list-style: none;
-
-    cursor: pointer;
   }
 
   .navContact {
-    pointer-events: none;
+    /*pointer-events: none; */
     cursor: not-allowed;
     color: rgba(255, 255, 255, 0.25);
   }

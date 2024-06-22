@@ -19,13 +19,18 @@ const Menu = () => {
             <nav>
               <ul className={styles.navItem}>
                 <li>
-                  <Link href="#offer" label="Our Offer" isSmall={true} />
+                  <Link href="#offers" label="Our Offer" isSmall={true} />
                 </li>
                 <li>
-                  <Link href="#contact" label="Contact" isSmall={true} />
+                  <Link href="#about-us" label="About Us" isSmall={true} />
                 </li>
                 <li className={styles.navContact}>
-                  <Link href="#aboutUs" label="About Us" isSmall={true} />
+                  <Link
+                    href="#about-us"
+                    label="Contacts"
+                    isSmall={true}
+                    disabled
+                  />
                 </li>
               </ul>
             </nav>

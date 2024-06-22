@@ -10,3 +10,8 @@
 .bigLink {
   font-size: 30px;
 }
+
+.disabled {
+  pointer-events: none;
+  cursor: not-allowed;
+}
