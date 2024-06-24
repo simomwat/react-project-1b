@@ -1,3 +1,4 @@
+//offers
 const offers = [
   { id: Math.random(), tittle: `Service 1 `, isNew: true },
 
