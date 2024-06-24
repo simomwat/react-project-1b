@@ -7,7 +7,7 @@ const LandingImage = () => {
       <img
         className={styles.landingImage}
         src="/images/front-image.png"
-        alt="Landing-image"
+        alt="forest"
       />
 
       <div className={styles.frontContent}>

@@ -1,4 +1,3 @@
-import Link from "../../shared-components/Link/Link";
 import Container from "../../shared-components/container/Container";
 
 import styles from "./Footer.module.css";
