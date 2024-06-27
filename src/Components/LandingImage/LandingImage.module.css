@@ -69,13 +69,6 @@
     padding: 15px 55px;
     font-size: 18px;
     border: 4px solid white;
-  }
-}
-
-/*DESKTOPS* */
-@media (min-width: 1440px) {
-  /*Hover effects - Landing button */
-  .frontButton {
     transition: all 1s ease-in-out;
   }
 
@@ -83,14 +76,12 @@
     background-color: white;
     color: black;
   }
+}
 
-  /*Hover effects -services */
+.service-type {
+  transition: all 0.5s linear;
+}
 
-  .service-type {
-    transition: all 0.5s linear;
-  }
-
-  .service-type:hover {
-    transform: scale(1.05);
-  }
+.service-type:hover {
+  transform: scale(1.05);
 }

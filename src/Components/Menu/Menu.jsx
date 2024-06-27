@@ -24,13 +24,13 @@ const Menu = () => {
                 <li>
                   <Link href="#about-us" label="About Us" isSmall={true} />
                 </li>
-                <li className={styles.navContact}>
-                  <Link
-                    href="#about-us"
-                    label="Contacts"
-                    isSmall={true}
-                    disabled
-                  />
+                <li
+                  className={styles.navContact}
+                  label="Contacts"
+                  isSmall={true}
+                  disabled
+                >
+                  <span>Contacts</span>
                 </li>
               </ul>
             </nav>

@@ -1,4 +1,3 @@
-import "./App.css";
 import Footer from "./Components/Footer/Footer";
 import LandingImage from "./Components/LandingImage/LandingImage";
 import Menu from "./Components/Menu/Menu";

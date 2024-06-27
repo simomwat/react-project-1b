@@ -59,6 +59,8 @@
   .navContact {
     /*pointer-events: none; */
     cursor: not-allowed;
-    color: rgba(255, 255, 255, 0.25);
+    color: gray;
+    font-size: 14px;
+    display: block;
   }
 }

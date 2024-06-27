@@ -10,6 +10,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  transition: all 0.5s linear;
+}
+
+.box:hover {
+  transform: scale(1.05);
 }
 
 .dot {
@@ -32,17 +38,4 @@
   align-items: center;
   gap: 5px;
   border-radius: 0px;
-}
-
-/*DESKTOPS  */
-@media (min-width: 1440px) {
-  /*Hover effects -services */
-
-  .box {
-    transition: all 0.5s linear;
-  }
-
-  .box:hover {
-    transform: scale(1.05);
-  }
 }
